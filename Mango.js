@@ -14,7 +14,7 @@ class Mango {
 display(){
     var pos = this.body.position
     translate(pos.x, pos.y)
-    image(this.image, pos.x, pos.y, this.width, this.height)
-    ellipse(0,0, this.r, this.r)
+    image(this.image, 0, 0, 100, 100)
+    //ellipse(0,0, this.r, this.r)
 }
 }
